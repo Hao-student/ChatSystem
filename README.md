@@ -4,7 +4,7 @@
 2.编译工程，编译完成后在两个工程目录下分别会有一个Debug文件夹；  
 （创建工程和编译过程的操作可以参考 https://www.cnblogs.com/lidabo/p/8652429.html ）  
 3.进入Debug文件夹，在ChatServer工程下有ChatServer.exe文件，在ChatClient工程下有ChatClient.exe文件;  
-4.打开三个cmd窗口：A,B,C；  
+4.在ChatServer文件夹目录下打开1个cmd窗口--A，在ChatClient文件夹目录下打开2个cmd窗口--B和C；  
 5.窗口A启动服务器，命令为ChatServer.exe 12345，12345是服务器端口号，可以自己定；  
 6.窗口B启动一个客户端，命令为ChatClient.exe 127.0.0.1 12345，127.0.0.1是服务器IP地址，12345是服务器端口号，端口号应与服务器窗口一致；  
 7.窗口C启动另一个客户端，命令与窗口B一致；  
